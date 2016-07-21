@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.swp
+*.tmp
+test*.js
+
+# generated files
+/src/client/public/bundle.js
+/src/client/public/bundle.js.map
+
+# OS X files
+.DS_Store
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directories
+node_modules
+
+# Logfiles directories
+logfiles
+logs
+log_files
+
+# Local database
+*.sqlite
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Visual Studio Code settings
+.vscode

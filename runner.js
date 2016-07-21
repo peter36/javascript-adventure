@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 var adventure = require('adventure');
-var shop = adventure('example-adventure');
+var shop = adventure('javascript-adventure');
 
-var problems = [ 'dinosaurs', 'robots', 'wowsers' ];
+var problems = [ '01_hello_world', '02_functions' ];
 problems.forEach(function (prob) {
     shop.add(prob, function () { return require('./problems/' + prob) });
 });

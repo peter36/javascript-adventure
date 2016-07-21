@@ -1,19 +1,22 @@
 {
-  "name": "example-adventure",
-  "version": "1.0.1",
-  "description": "example of using adventure to make nodeschool challenges",
+  "name": "javascript-adventure",
+  "version": "0.1.0",
+  "description": "Javascript tutorials for kids",
   "bin": {
-    "example-adventure": "runner.js"
+    "javascript-adventure": "runner.js"
   },
-  "author": "YOUR NAME HERE",
+  "author": "Peter Li (peter36.github.io)",
   "license": "MIT",
   "keywords": [
     "nodeschool",
     "adventure",
-    "education"
+    "education",
+    "children",
+    "javascript"
   ],
   "dependencies": {
     "adventure": "^2.2.0",
-    "adventure-verify": "^2.1.1"
+    "adventure-verify": "^2.1.1",
+    "vm": "^0.1.0"
   }
 }
