@@ -5,5 +5,4 @@ Just type the following to start:
   
   `javascript-adventure`
 
-\* If javascript-adventure is not available, you might need to run `npm link` first.
-
+\* If `javascript-adventure` is not available, you might need to run `npm link` first.
