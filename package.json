@@ -16,8 +16,8 @@
   ],
   "homepage": "https://github.com/peter36/javascript-adventure",
   "dependencies": {
-    "adventure": "2.2.0",
-    "adventure-verify": "2.1.1",
+    "adventure": "2.11.0",
+    "adventure-verify": "2.2.0",
     "vm": "0.1.0"
   }
 }
