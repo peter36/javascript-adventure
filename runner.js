@@ -7,6 +7,7 @@ var path = require('path');
 // Specify all the problems here
 var problems = [ '01_Hello_World', '02_Functions' ];
 problems.forEach(function (prob) {
+    // replace _ as white spaces
     shop.add(prob.replace(/_/g, ' '), function () { 
         return require(path.join(__dirname, '/problems/' + prob.toLowerCase()))});
 });
