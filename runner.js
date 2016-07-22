@@ -4,6 +4,7 @@ var adventure = require('adventure');
 var shop = adventure('javascript-adventure');
 var path = require('path');
 
+// Specify all the problems here
 var problems = [ '01_Hello_World', '02_Functions' ];
 problems.forEach(function (prob) {
     shop.add(prob.replace(/_/g, ' '), function () { 
