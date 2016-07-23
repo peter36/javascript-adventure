@@ -1,5 +1,8 @@
+# Solution
 Here is the reference solution, if you're curious:
-
+```
 module.exports = function (a, b) {
   return a * b;
 }
+```
+

@@ -1,6 +1,6 @@
 {
   "name": "javascript-adventure",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Javascript tutorials for kids",
   "bin": {
     "javascript-adventure": "runner.js"
@@ -18,6 +18,8 @@
   "dependencies": {
     "adventure": "2.11.0",
     "adventure-verify": "2.2.0",
+    "marked": "^0.3.5",
+    "marked-terminal": "^1.6.1",
     "vm": "0.1.0"
   }
 }

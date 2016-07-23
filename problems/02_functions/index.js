@@ -2,8 +2,18 @@ var fs = require('fs');
 var path = require('path');
 var verify = require('adventure-verify');
 
-exports.problem = fs.createReadStream(__dirname + '/problem.txt');
-exports.solution = fs.createReadStream(__dirname + '/solution.txt');
+var marked = require('marked');
+var TerminalRenderer = require('marked-terminal');
+marked.setOptions({
+  renderer: new TerminalRenderer()
+});
+
+var fsOption = {
+  encoding: 'utf8'
+};
+
+exports.problem = marked(fs.readFileSync(__dirname + '/problem.md', fsOption));
+exports.solution = marked(fs.readFileSync(__dirname + '/solution.md', fsOption));
 
 exports.verify = verify({ modeReset: true }, function (args, t) {
     var f = require(path.resolve(args[0]));
